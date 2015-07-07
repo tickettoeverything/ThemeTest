@@ -1,0 +1,38 @@
+
+
+#footer {
+    background-color:rgb(149,181,223);
+    color:white;
+    text-align:center;
+    padding:45px;
+    font-family: "Gill Sans", Arial;
+    letter-spacing:2px;
+    font-size: 10px;
+}
+
+div {
+    max-width: 900px;
+    margin-left: auto;
+    margin-right: auto;
+    border: 0px solid;
+}
+
+table{
+    border-collapse: collapse;
+}
+
+#customers td, #customers th {
+font-size: .80en;
+border:0px solid #BA3838;
+padding:10px 7px 14px 7px;
+color:white;
+Text-transform: uppercase;
+
+}
+
+p {
+    color: black;
+    Text-transform: uppercase;
+    font-size: 14px;
+    line-height: 2;
+}
