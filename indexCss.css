@@ -1,0 +1,188 @@
+body.index_body {
+    background-color: #b0c4de;
+	height: 101%;
+    margin: 0px;
+	width: 100%;
+	overflow: auto;
+	
+	
+}
+div.index_main{
+	position: absolute;
+    right: 100px;
+	left: 140px;
+    width: 900px;
+	height: 1000px;
+    border: 3px solid #8AC007;
+
+}
+div.index_items {
+	position: absolute;
+	right: 50px;
+    width: 400px;
+	height: 500px;
+    border: 3px solid #8AC007;
+	
+	
+}
+div.index_play {
+	position: absolute;
+	right: 470px;
+    width: 400px;
+	height: 500px;
+    border: 3px solid #8AC007;
+	background-color: grey;
+	
+	
+}
+
+table, td {
+    border-collapse: separate;
+    border-spacing: 15px;
+
+}
+
+td {
+   
+ padding: 55px;
+	padding-right:20px;
+	
+	background-color: red;
+
+	font-weight: bold;
+	text-align: center;	
+}
+
+td.tours{
+
+	background: url(Images/nycTours.jpg) no-repeat top;
+
+}
+td.sports{
+
+	background: url(Images/spACon.jpg) no-repeat top;
+}
+
+td.museum{
+
+	background: url(Images/mus1.jpg);
+}
+
+td.airport{
+
+	background: url(Images/airport.jpg);
+}
+
+
+td.dance{
+
+	background: url(Images/dance.jpg);
+}
+
+
+td.daytrip{
+
+	background: url(Images/daytrip.jpg);
+}
+td a{
+	text-decoration: none;
+	color: white;
+	text-align: center;
+	
+}
+td a:hover{
+	
+	color: #000000;
+}
+td a:visited{
+	color: #00ff00;
+}
+tr{
+	padding: 15px;
+}
+
+div.index_img {
+    
+    border: 1px solid #0000ff;
+    height: auto;
+    width: auto;
+    text-align: center;
+}	
+
+div.index_desc{
+	text-align: left;
+	font-weight: bold;
+	color: white;
+	width: 350px;
+	margin: 10px;
+}
+
+
+#index_theatre{
+
+	position: absolute;
+	bottom: 130px;
+	right: 60px;
+	width: 810px;
+	height: 175px;
+	border: 3px solid #8AC007;
+	background-color: grey;
+	overflow: hidden;
+
+}
+
+#index_theatre ul li{
+
+	display: inline-block;
+	float: left;
+    height: auto;
+    margin: 0 4px;
+    width: 105px;
+
+}
+
+div.index_deal{
+
+	position: absolute;
+	bottom: 330px;
+	right: 50px;
+    width: 400px;
+	height: 150px;
+    border: 3px solid #8AC007;
+	background-color: grey;
+	background: url(Images/dod.jpg) no-repeat;
+	display:block;
+	max-height: 100%;
+	max-width: 100%;
+
+}
+
+div.index_misc{
+	position: absolute;
+	bottom: 330px;
+	right: 470px;
+    width: 400px;
+	height: 150px;
+    border: 3px solid #8AC007;
+	
+	
+}
+
+#carousel {
+	width: 480px;
+	overflow:hidden;
+}
+
+#carousel ul {
+	width: 1920px;
+	padding: 0;
+	margin: 0;
+}
+
+#carousel ul li {
+	width:480px;
+	text-align: center;
+	height: 280px;
+	list-style: none;
+	float:	left;
+}
